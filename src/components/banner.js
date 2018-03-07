@@ -6,6 +6,7 @@ import Grid from 'material-ui/Grid';
 import Hidden from 'material-ui/Hidden';
 import Avatar from 'material-ui/Avatar';
 import Typography from 'material-ui/Typography';
+import { Parallax, Background } from 'react-parallax';
 
 const styles = theme => ({
   banner: {
