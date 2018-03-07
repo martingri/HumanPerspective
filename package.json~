@@ -1,0 +1,21 @@
+{
+  "name": "x3r1539x8w",
+  "description": null,
+  "version": "0.0.0",
+  "dependencies": {
+    "material-ui": "next",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-burger-menu": "^2.3.0",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
