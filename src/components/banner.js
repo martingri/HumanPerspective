@@ -4,25 +4,43 @@ import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import Hidden from 'material-ui/Hidden';
-import LogoImg from '../assets/img/MockLogo.gif';
 import Avatar from 'material-ui/Avatar';
+import Typography from 'material-ui/Typography';
 
 const styles = theme => ({
-  logo: {
-    height: 30,
+  banner: {
+    height: '90vh',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
   },
+  bannerText: {
+    color: '#fff',
+    textAlign: 'center'
+  }
 });
 
-function Logo(props) {
+function Banner(props) {
   const { classes } = props;
+  const bannerImg = props.bannerImg;
 
   return (
-    <img src={LogoImg} className={classes.logo}/>
+    <Grid container className={classes.banner} style={{ backgroundImage: `url(${bannerImg})` }}
+      container
+      alignItems='center'
+      direction='column'
+      justify='center'
+    >
+      <Grid item>
+        <Typography className={classes.bannerText} variant="display3" gutterBottom>
+          {props.bannerText}
+        </Typography>
+      </Grid>
+    </Grid>
   );
 }
 
-Logo.propTypes = {
+Banner.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Logo);
+export default withStyles(styles)(Banner);

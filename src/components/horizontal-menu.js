@@ -18,7 +18,7 @@ function doSomething(event) {
 function HorizontalMenu(props) {
   const { classes } = props;
   return (
-    <Grid container spacing={18}>
+    <Grid container spacing={24}>
       <Grid item xs={3}>
       <Button href="#" className={classes.button}>
         Home

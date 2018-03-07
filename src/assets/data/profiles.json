@@ -1,0 +1,17 @@
+[{
+    "name": "Martin Grimeland",
+    "title": "SOFTWARE ENGINEER, CTO FOR-HIRE, CLEAN CODE EVANGELIST",
+    "pitch": "Martin has a master’s degree in Computer Science and MBA courses at Boston University. He has more than 12 years of experience in software development in 5 different countries. For most of Martin’s career he has had leadership positions, usually also with responsibilities as lead architect. In these positions Martin has gained lots of experience building and putting together teams, developing products from scratch and contributing to setting business and product strategies. Martin has always been drawn towards working with Startups and has worked in 5 different startups since his first job in 2006. In 2014 Martin joined Kahoot! as Head of Engineering and was one of the first to join the company. Martin played an important part in shaping the company and besides growing the engineering team across multiple disciplines and distributed over 3 continents he took lead on establishing Kahoot!'s office in Austin and regularly attended conferences with the founders to drive engagement. Kahoot! gained global traction and during Martin's time grew to 50 million monthly active users all over the world.",
+    "education": [
+      {"authority": "Oslo University", "degree": "Master's Degree Computer Science", "years": "2004- 2006"},
+      {"authority": "Boston University", "degree": "Advanced Entrepreneurship Program", "years": "2006"},
+      {"authority": "Oslo University", "degree": "BA, Computer Science", "years": "2000- 2003"}
+    ],
+    "expertise": ["Full-Stack System Development", "System Design and Architecture", "Clean Code Evangelist"],
+    "experience": ["Extensive experience in Startups designing and contributing to business strategies", 
+      "Scaling, tuning and managing engineering teams.",
+      "Strong interest and focus on Clean Code and Lean Principles.",
+      "Works focused with excellent analytical skills and great in teams."
+    ],
+    "profileImage": "MartinGrimelandCV-scaled.png"
+}]
