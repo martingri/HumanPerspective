@@ -26,11 +26,16 @@ function Banner(props) {
 
   return (
     <div>
+      <Parallax
+      blur={{ min: -15, max: 15 }}
+      bgImage={bannerImg}
+      strength={200}>
           <Grid item>
             <Typography className={classes.bannerText} variant="display3" gutterBottom>
               {props.bannerText}
             </Typography>
           </Grid>
+    </Parallax>
     </div>
   );
 }
