@@ -25,18 +25,13 @@ function Banner(props) {
   const bannerImg = require(`../assets/img/${props.bannerImg}`);
 
   return (
-    <Grid container className={classes.banner} style={{ backgroundImage: `url(${bannerImg})` }}
-      container
-      alignItems='center'
-      direction='column'
-      justify='center'
-    >
-      <Grid item>
-        <Typography className={classes.bannerText} variant="display3" gutterBottom>
-          {props.bannerText}
-        </Typography>
-      </Grid>
-    </Grid>
+    <div>
+          <Grid item>
+            <Typography className={classes.bannerText} variant="display3" gutterBottom>
+              {props.bannerText}
+            </Typography>
+          </Grid>
+    </div>
   );
 }
 
