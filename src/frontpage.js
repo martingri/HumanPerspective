@@ -118,11 +118,10 @@ function Frontpage(props) {
               <HorizontalMenu />
             </Grid>
             <Grid item sm={2}>
-              <Blurb />
             </Grid>
           </Hidden>
           <Grid item xs={12}>
-            <Banner bannerImg={topBannerImg} bannerText="COMMITTED TO SOCIAL IMPACT" />
+            <Banner bannerImg={topBannerImg} bannerText="TECHNICAL AND PRODUCT SERVICES" />
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
