@@ -22,7 +22,7 @@ const styles = theme => ({
 
 function Banner(props) {
   const { classes } = props;
-  const bannerImg = props.bannerImg;
+  const bannerImg = require(`../assets/img/${props.bannerImg}`);
 
   return (
     <Grid container className={classes.banner} style={{ backgroundImage: `url(${bannerImg})` }}
