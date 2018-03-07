@@ -30,11 +30,13 @@ function Banner(props) {
       blur={{ min: -15, max: 15 }}
       bgImage={bannerImg}
       strength={200}>
+      <div style={{ height: '90vh' }} >
           <Grid item>
             <Typography className={classes.bannerText} variant="display3" gutterBottom>
               {props.bannerText}
             </Typography>
           </Grid>
+      </div>
     </Parallax>
     </div>
   );
