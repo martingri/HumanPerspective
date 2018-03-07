@@ -31,11 +31,16 @@ function Banner(props) {
       bgImage={bannerImg}
       strength={200}>
       <div style={{ height: '90vh' }} >
+        <Grid container className={classes.banner}
+          alignItems='center'
+          direction='column'
+          justify='center'>
           <Grid item>
             <Typography className={classes.bannerText} variant="display3" gutterBottom>
               {props.bannerText}
             </Typography>
           </Grid>
+        </Grid>
       </div>
     </Parallax>
     </div>
