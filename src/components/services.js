@@ -55,7 +55,7 @@ function Services(props) {
         <Typography variant="body1" gutterBottom align="left">
           We offer a combination of business understanding and a deep technical understanding to provide a technical perspective in business strategy decisions. We also offer advice on all aspects of managing an engineering team.
         </Typography>
-        <Typography variant="headline" gutterBottom align="left">
+        <Typography variant="subheading" gutterBottom align="left">
           For business strategy we can provide advice on:
         </Typography>
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Feasibility of a technical solution – including my evaluation on complexity and quick win pragmatic solutions and alternatives.</Typography>
@@ -63,7 +63,7 @@ function Services(props) {
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Strategies in building a development team – hiring, composition, processes etc.</Typography>
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate third party companies that is considered for product development.</Typography>
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate off the shelf technology or software as a service platforms.</Typography>
-        <Typography variant="headline" gutterBottom align="left">
+        <Typography variant="subheading" gutterBottom align="left">
           We can help engineering teams by advising on:
         </Typography>
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Professionalising or streamlining development processes and workflows.</Typography>
