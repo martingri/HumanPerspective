@@ -9,6 +9,7 @@
     "react": "latest",
     "react-burger-menu": "^2.3.0",
     "react-dom": "latest",
+    "react-parallax": "^1.6.1",
     "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
