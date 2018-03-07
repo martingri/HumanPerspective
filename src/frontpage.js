@@ -12,10 +12,10 @@ import Banner from './components/banner';
 import AboutUs from './components/about-us';
 import Services from './components/services';
 import ContactUs from './components/contact-us';
-import topBannerImg from './assets/img/835561.jpg';
-import middleBannerImg from './assets/img/703700.jpg';
-import bottomBannerImg from './assets/img/632414.jpg';
 
+const topBannerImg = '835561.jpg';
+const middleBannerImg = '703700.jpg';
+const bottomBannerImg = '632414.jpg';
 
 const fontWeightMedium = 500;
 const theme = createMuiTheme({
