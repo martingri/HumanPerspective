@@ -98,14 +98,7 @@ const theme = createMuiTheme({
 });
 
 const styles = theme => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
+
 });
 
 function Frontpage(props) {
@@ -115,12 +108,12 @@ function Frontpage(props) {
     <MuiThemeProvider theme={theme}>
       <div className={classes.root}>
         <Grid container>
-          <Hidden xsDown>
+          <Hidden smDown>
             <AppBar position="sticky" color="default">
               <HorizontalMenu />
             </AppBar>
           </Hidden>
-          <Hidden smUp>
+          <Hidden mdUp>
           <AppBar position="sticky" color="default">
               <BurgerMenu />
             </AppBar>

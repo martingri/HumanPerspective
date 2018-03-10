@@ -30,9 +30,9 @@ function generateBullet(point, id) {
 }
 
 function generatePitchParagraph(text, id) {
-  return (<div><Typography key={id} variant="body1" gutterBottom align="left">
+  return (<Typography key={id} variant="body1" gutterBottom align="left">
            {text}
-          </Typography></div>);
+          </Typography>);
 }
 
 function MemberProfile(props) {

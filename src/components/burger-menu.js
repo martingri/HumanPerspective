@@ -11,14 +11,10 @@ import ClickAwayListener from "material-ui/utils/ClickAwayListener";
 import Grid from "material-ui/Grid";
 import IconButton from 'material-ui/IconButton';
 import Icon from 'material-ui/Icon';
+import Logo from './logo';
+import Toolbar from "material-ui/Toolbar";
 
 const styles = theme => ({
-  root: {
-    display: "flex"
-  },
-  paper: {
-    marginRight: theme.spacing.unit * 2
-  },
   popperClose: {
     pointerEvents: "none"
   }
@@ -53,7 +49,15 @@ class BurgeMenu extends React.Component {
     const { open } = this.state;
 
     return (
-      <div className={classes.root}>
+      <Toolbar>
+        <Grid container
+          alignItems='center'
+          direction='row'
+          justify='space-start'>
+          <Grid item xs={1}>
+            <Logo />
+          </Grid>
+        </Grid>
         <Grid
           container
           alignItems="flex-end"
@@ -88,19 +92,19 @@ class BurgeMenu extends React.Component {
                           alignItems='flex-start'
                           direction='column'
                           justify='flex-start'>
-                        <Button href="#" onClick={this.handleClose}>
-                          Home
-              </Button>
-                        <Button href="#about-us" onClick={this.handleClose}>
-                          About Us
-              </Button>
-                        <Button href="#services" onClick={this.handleClose}>
-                          Services
-              </Button>
-                        <Button href="#contact-us" onClick={this.handleClose}>
-                          Contact Us
-              </Button>
-              </Grid>
+                          <Button href="#" onClick={this.handleClose}>
+                            Home
+                          </Button>
+                          <Button href="#about-us" onClick={this.handleClose}>
+                            About Us
+                          </Button>
+                          <Button href="#services" onClick={this.handleClose}>
+                            Services
+                          </Button>
+                          <Button href="#contact-us" onClick={this.handleClose}>
+                            Contact Us
+                          </Button>
+                        </Grid>
                       </MenuList>
                     </Paper>
                   </Grow>
@@ -109,7 +113,7 @@ class BurgeMenu extends React.Component {
             </Manager>
           </Grid>
         </Grid>
-      </div>
+      </Toolbar>
     );
   }
 }

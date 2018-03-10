@@ -9,10 +9,7 @@ import Logo from './logo';
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
-  },
-  flex: {
-    flex: 1,
-  },
+  }
 });
 
 function HorizontalMenu(props) {
@@ -31,20 +28,18 @@ function HorizontalMenu(props) {
         alignItems='center'
         direction='row'
         justify='flex-end'>
-        <Grid item xs={11}>
-          <Button href="#" className={classes.flex}>
-            Home
-      </Button>
-          <Button href="#about-us" className={classes.flex}>
-            About Us
-      </Button>
-          <Button href="#services" className={classes.flex}>
-            Services
-      </Button>
-          <Button href="#contact-us" className={classes.flex}>
-            Contact Us
-      </Button>
-        </Grid>
+        <Button href="#">
+          Home
+        </Button>
+        <Button href="#about-us">
+          About Us
+        </Button>
+        <Button href="#services">
+          Services
+        </Button>
+        <Button href="#contact-us">
+          Contact Us
+        </Button>
       </Grid>
     </Toolbar>
   );
