@@ -23,7 +23,7 @@ function HorizontalMenu(props) {
         alignItems='center'
         direction='row'
         justify='flex-start'>
-        <Grid item xs={2}>
+        <Grid item xs={1}>
           <Logo />
         </Grid>
       </Grid>
@@ -31,7 +31,7 @@ function HorizontalMenu(props) {
         alignItems='center'
         direction='row'
         justify='flex-end'>
-        <Grid item xs={8}>
+        <Grid item xs={11}>
           <Button href="#" className={classes.flex}>
             Home
       </Button>
