@@ -3,43 +3,36 @@ import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Button from 'material-ui/Button';
 import Grid from 'material-ui/Grid';
+import Toolbar from "material-ui/Toolbar";
+import Logo from './logo';
 
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
   },
+  flex: {
+    flex: 1,
+  },
 });
-
-function doSomething(event) {
-  // eslint-disable-next-line no-console
-  console.log(event.currentTarget.getAttribute('data-something'));
-}
 
 function HorizontalMenu(props) {
   const { classes } = props;
   return (
-    <Grid container spacing={24}>
-      <Grid item xs={3}>
-      <Button href="#" className={classes.button}>
+    <Toolbar>
+      <Logo />
+      <Button href="#" className={classes.flex}>
         Home
       </Button>
-      </Grid>
-      <Grid item xs={3}>
-      <Button href="#about-us" className={classes.button}>
+      <Button href="#about-us" className={classes.flex}>
         About Us
       </Button>
-      </Grid>
-      <Grid item xs={3}>
-      <Button href="#services" className={classes.button}>
+      <Button href="#services" className={classes.flex}>
         Services
       </Button>
-      </Grid>
-      <Grid item xs={3}>
-      <Button href="#contact-us" className={classes.button}>
+      <Button href="#contact-us" className={classes.flex}>
         Contact Us
       </Button>
-      </Grid>
-    </Grid>
+    </Toolbar>
   );
 }
 
