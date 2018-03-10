@@ -12,12 +12,7 @@ import profiles from '../assets/data/profiles.json';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
+  }
 });
 
 function getMemberProfileComponent(profile, id) {
@@ -29,9 +24,9 @@ function getMemberProfileComponent(profile, id) {
 function AboutUs(props) {
   const { classes } = props;
   return (
-    <Grid container>
+    <Grid container id="about-us">
         <Grid item xs={12}>
-            <Typography variant="display1" gutterBottom align='center'>
+            <Typography variant="display1" gutterBottom align='center' style={{marginTop: '60px'}}>
               ABOUT US
             </Typography>
             <Typography variant="body1" gutterBottom align="left">
