@@ -19,19 +19,33 @@ function HorizontalMenu(props) {
   const { classes } = props;
   return (
     <Toolbar>
-      <Logo />
-      <Button href="#" className={classes.flex}>
-        Home
+      <Grid container
+        alignItems='center'
+        direction='row'
+        justify='flex-start'>
+        <Grid item md={6}>
+          <Logo />
+        </Grid>
+      </Grid>
+      <Grid container
+        alignItems='center'
+        direction='row'
+        justify='flex-end'>
+        <Grid item md={6}>
+          <Button href="#" className={classes.flex}>
+            Home
       </Button>
-      <Button href="#about-us" className={classes.flex}>
-        About Us
+          <Button href="#about-us" className={classes.flex}>
+            About Us
       </Button>
-      <Button href="#services" className={classes.flex}>
-        Services
+          <Button href="#services" className={classes.flex}>
+            Services
       </Button>
-      <Button href="#contact-us" className={classes.flex}>
-        Contact Us
+          <Button href="#contact-us" className={classes.flex}>
+            Contact Us
       </Button>
+        </Grid>
+      </Grid>
     </Toolbar>
   );
 }
