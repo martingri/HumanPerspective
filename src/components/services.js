@@ -24,10 +24,10 @@ function Services(props) {
   return (
     <Grid container spacing={24}>
       <Grid item xs={12}  id="services">
-        <Typography variant="display1" gutterBottom align='center' style={{marginTop: '60px'}}>
+        <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px' }}>
           WHAT WE CAN DO FOR YOU
         </Typography>
-        <Typography variant="title" gutterBottom align='left'>
+        <Typography variant="display2" gutterBottom align='left'>
           OUR APPS
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
@@ -35,7 +35,7 @@ function Services(props) {
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Typography variant="title" gutterBottom align='left'>
+        <Typography variant="display2" gutterBottom align='left'>
           WE HELP BUSINESSES AND STARTUPS SHAPE AND BUILD OUT THEIR IDEAS
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
@@ -49,30 +49,30 @@ function Services(props) {
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Typography variant="title" gutterBottom align='left'>
+        <Typography variant="display2" gutterBottom align='left'>
           WE OFFER BUSINESSES STRATEGIC AND OPERATIONAL ADVISE
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
-          We offer a combination of business understanding and a deep technical understanding to provide a technical perspective in business strategy decisions. We also offer advice on all aspects of managing an engineering team.
+          We offer a combination of business understanding and a deep technical understanding to provide a technical perspective in business strategy decisions. We also offer advice on all aspects of managing an engineering team. 
         </Typography>
         <Typography variant="subheading" gutterBottom align="left">
           For business strategy we can provide advice on:
         </Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Feasibility of a technical solution – including my evaluation on complexity and quick win pragmatic solutions and alternatives.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Forming a technical roadmap</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Strategies in building a development team – hiring, composition, processes etc.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate third party companies that is considered for product development.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Feasibility of a technical solution – including my evaluation on complexity and quick win pragmatic solutions and alternatives.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Forming a technical roadmap</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Strategies in building a development team – hiring, composition, processes etc.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate third party companies that is considered for product development.</Typography>
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate off the shelf technology or software as a service platforms.</Typography>
         <Typography variant="subheading" gutterBottom align="left">
           We can help engineering teams by advising on:
         </Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Professionalising or streamlining development processes and workflows.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Growing the engineering team.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Recruitment – Evaluating what roles are needed and define roles. Work out relevant interview questions. We can even join interviews and evaluate your candidates.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Designing their Agile approach.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />System architecture and solution design.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Importance of code quality and best practices.</Typography>
-        <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Clean code.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Professionalising or streamlining development processes and workflows.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Growing the engineering team.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Recruitment – Evaluating what roles are needed and define roles. Work out relevant interview questions. We can even join interviews and evaluate your candidates.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Designing their Agile approach.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />System architecture and solution design.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Importance of code quality and best practices.</Typography>
+        <Typography style={{marginBottom: '40px' }}variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Clean code.</Typography>
       </Grid>
     </Grid>
   );

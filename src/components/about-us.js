@@ -26,13 +26,14 @@ function AboutUs(props) {
   return (
     <Grid container id="about-us">
         <Grid item xs={12}>
-            <Typography variant="display1" gutterBottom align='center' style={{marginTop: '60px'}}>
+            <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px'}}>
               ABOUT US
             </Typography>
             <Typography variant="body1" gutterBottom align="left">
             PACT works on web and native applications that have positive social impact. We develop our own concepts and work with like minded businesses on their products. Our expertise is product design and concept development with extensive experience shaping, designing and building ground-breaking new products. PACT is based in Newcastle, Australia with strong connections to Oslo, Norway and London, UK. 
-
-<br/>We believe in lean product development principles and that great communication is essential for a successful project. When we’re involved in projects that requires a bigger team or specialists, we scale up the team with professionals in our network who we know and trust.
+            </Typography>
+            <Typography variant="body1" gutterBottom align="left">
+We believe in lean product development principles and that great communication is essential for a successful project. When we’re involved in projects that requires a bigger team or specialists, we scale up the team with professionals in our network who we know and trust.
             </Typography>
         </Grid>
         {profiles.map((profile, i) => getMemberProfileComponent(profile, i))}

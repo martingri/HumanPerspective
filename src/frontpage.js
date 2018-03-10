@@ -22,59 +22,66 @@ const theme = createMuiTheme({
   typography: {
     // Use the system font.
     fontFamily:
-      'inconsolata',
+      'quicksand',
     fontWeightMedium,
-    body1: {
-      fontWeight: fontWeightMedium,
-      wordWrap: 'break-word',
-      fontWeight: fontWeightMedium,
+    display4: {
+      textTransform: 'uppercase',
+      letterSpacing: '.2em',
+      marginRight: '1.9em',
+      marginLeft: '1.9em',
+      fontSize: '60px'
+    },
+    display3: {
+      fontWeight: '400',
       fontStyle: 'normal',
-      fontSize: '14px',
-      letterSpacing: '.015em',
+      fontSize: '26px',
+      letterSpacing: '.15em',
       lineHeight: '2.3em',
-      textTransform: 'none',
-      color: '#949494'
+      textTransform: 'uppercase',
+      color: 'black'
+    },
+    display2: {
+      fontWeight: '500',
+      fontStyle: 'normal',
+      fontSize: '18px',
+      letterSpacing: '.15em',
+      lineHeight: '1.8em',
+      textTransform: 'uppercase',
+      color: '#000'
     },
     subheading: {
       fontWeight: 'bold',
       fontStyle: 'normal',
       fontSize: '14px',
       letterSpacing: '.1em',
-      lineHeight: '1.9em',
+      lineHeight: '1.em',
       textTransform: 'uppercase',
-      color: '#949494'
+      color: '#949494',
     },
     title: {
-      fontWeight: fontWeightMedium,
+      fontWeight: 'bold',
       fontStyle: 'normal',
       fontSize: '14px',
       letterSpacing: '.1em',
-      lineHeight: '1.9em',
+      lineHeight: '1.em',
       textTransform: 'uppercase',
-      color: '#000'
     },
-    display2: {
-      fontWeight: '400',
+    body1: {
+      fontWeight: fontWeightMedium,
+      wordWrap: 'break-word',
       fontStyle: 'normal',
-      fontSize: '26px',
-      letterSpacing: '.15em',
+      fontSize: '14px',
+      letterSpacing: '.015em',
       lineHeight: '2.3em',
-      textTransform: 'uppercase'
-    },
-    display1: {
-      fontWeight: '400',
-      fontStyle: 'normal',
-      fontSize: '26px',
-      letterSpacing: '.15em',
-      lineHeight: '2.3em',
-      textTransform: 'uppercase',
-      color: '#121212'
-    },
-    display3: {
-      textTransform: 'uppercase'
+      textTransform: 'none',
+      color: '#949494',
+      paddingBottom: '1em',
     },
     button: {
-      fontFamily: 'oswald'
+      fontWeight: '600',
+      letterSpacing: '.1em',
+      fontSize: '12px',
+      textTransform: 'lowercase',
     },
     caption: {
       fontFamily: 'oswald',
@@ -123,7 +130,7 @@ function Frontpage(props) {
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
-          <Grid item xs={10} sm={8}>
+          <Grid style={{marginBottom: '40px' }} item xs={10} sm={8}>
             <AboutUs />
           </Grid>
           <Grid item xs={1} sm={2}>

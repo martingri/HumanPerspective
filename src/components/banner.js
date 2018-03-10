@@ -36,7 +36,7 @@ function Banner(props) {
           direction='column'
           justify='center'>
           <Grid item>
-            <Typography className={classes.bannerText} variant="display3" gutterBottom>
+            <Typography className={classes.bannerText} variant="display4" gutterBottom>
               {props.bannerText}
             </Typography>
           </Grid>
