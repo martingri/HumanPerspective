@@ -73,7 +73,7 @@ function MemberProfile(props) {
             <Typography variant="display2" gutterBottom align="left">
               EXPERIENCE & STRENGTHS
         </Typography>
-            {expertise.map((text, i) => generateBullet(text, i))}
+            {experience.map((text, i) => generateBullet(text, i))}
           </Grid>
         </Grid>
       </Grid>
