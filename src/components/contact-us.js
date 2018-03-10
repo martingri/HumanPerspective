@@ -11,21 +11,16 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
   },
-  paper: {
-    padding: theme.spacing.unit * 2,
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
 });
 
 function ContactUs(props) {
   const { classes } = props;
 
   return (
-    <Grid container spacing={24}>
+    <Grid container spacing={24} id="contact-us">
       <Grid item xs={2}/>
       <Grid item xs={8}>
-        <Typography variant="display2" gutterBottom align='center'>
+        <Typography variant="display1" gutterBottom align='center'>
           GET IN TOUCH
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
@@ -43,6 +38,7 @@ function ContactUs(props) {
         <Typography variant="body1" gutterBottom align="left">
           +61 (0) 47 52 55 779
         </Typography>
+        <div style={{height:'65vh'}}/>
       </Grid>
      </Grid>
   );

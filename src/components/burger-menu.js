@@ -114,4 +114,8 @@ class BurgeMenu extends React.Component {
   }
 }
 
-export default BurgerMenu;
+BurgeMenu.propTypes = {
+  classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(BurgeMenu);
