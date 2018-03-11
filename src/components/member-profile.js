@@ -15,7 +15,7 @@ const styles = theme => ({
     float:'left',
     paddingRight: '30px',
     paddingBottom: '10px',
-    paddingTop: '20px',
+    /**paddingTop: '20px',*/
     width: '30%',
     [theme.breakpoints.down('md')]: {
       width: '40%',

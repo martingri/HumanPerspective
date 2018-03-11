@@ -10,7 +10,7 @@ import { Parallax, Background } from 'react-parallax';
 
 const styles = theme => ({
   banner: {
-    height: '50vh',
+    height: '70vh',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   },

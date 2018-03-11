@@ -35,7 +35,7 @@ const theme = createMuiTheme({
       fontStyle: 'normal',
       fontSize: '26px',
       letterSpacing: '.15em',
-      lineHeight: '2.3em',
+      lineHeight: '1.2em',
       textTransform: 'uppercase',
       color: '#000'
     },
