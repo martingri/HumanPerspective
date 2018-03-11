@@ -15,7 +15,7 @@ const styles = theme => ({
     float:'left',
     paddingRight: '30px',
     paddingBottom: '10px',
-    paddingTop: '20px',
+    /**paddingTop: '20px',*/
     width: '30%',
     [theme.breakpoints.down('md')]: {
       width: '40%',
@@ -50,7 +50,7 @@ function MemberProfile(props) {
   const pitch = profile.pitch;
   const imagePath = require(`../assets/img/${profile.profileImage}`);
   return (
-    <Grid container>
+    <Grid  style={{marginBottom: '20px'}} container>
       <Grid item xs={12}>
         <img src={imagePath} className={classes.profileImage}/>
         <Typography variant="display3" gutterBottom align='left'>

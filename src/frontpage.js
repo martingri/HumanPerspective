@@ -35,7 +35,7 @@ const theme = createMuiTheme({
       fontStyle: 'normal',
       fontSize: '26px',
       letterSpacing: '.15em',
-      lineHeight: '2.3em',
+      lineHeight: '1.2em',
       textTransform: 'uppercase',
       color: '#000'
     },
@@ -57,7 +57,7 @@ const theme = createMuiTheme({
       letterSpacing: '.1em',
       lineHeight: '1.em',
       textTransform: 'uppercase',
-      color: '#949494',
+      color: '#474747',
     },
     title: {
       fontFamily:'quicksand',
@@ -77,7 +77,7 @@ const theme = createMuiTheme({
       letterSpacing: '.015em',
       lineHeight: '2.0em',
       textTransform: 'none',
-      color: '#949494',
+      color: '#474747',
       paddingBottom: '1em',
     },
     button: {
@@ -113,9 +113,9 @@ function Frontpage(props) {
   return (
     <MuiThemeProvider theme={theme}>
       <div className={classes.root}>
-        <Grid container>
+        <Grid style={{backgroundColor: '#f9f6f4'}} container>
           <Hidden smDown>
-            <AppBar position="sticky" color="defaults" elevation={0}>
+            <AppBar position="sticky" color="#ffffff"  elevation={0}>
               <HorizontalMenu />
             </AppBar>
           </Hidden>
