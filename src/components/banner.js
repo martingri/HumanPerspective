@@ -20,6 +20,9 @@ const styles = theme => ({
     [theme.breakpoints.down('sm')]: {
       fontSize: '45px'
     },
+    [theme.breakpoints.down('xs')]: {
+      fontSize: '40px'
+    },
   }
 });
 

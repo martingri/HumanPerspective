@@ -16,7 +16,10 @@ const styles = theme => ({
     paddingRight: '30px',
     paddingBottom: '10px',
     paddingTop: '20px',
-    width: '300px'
+    width: '300px',
+    [theme.breakpoints.down('xs')]: {
+      width: '250px',
+    },
   }
 });
 
