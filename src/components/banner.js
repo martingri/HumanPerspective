@@ -16,7 +16,10 @@ const styles = theme => ({
   },
   bannerText: {
     color: '#fff',
-    textAlign: 'center'
+    textAlign: 'center',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '45px'
+    },
   }
 });
 
