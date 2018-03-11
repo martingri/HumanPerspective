@@ -57,7 +57,7 @@ const theme = createMuiTheme({
       letterSpacing: '.1em',
       lineHeight: '1.em',
       textTransform: 'uppercase',
-      color: '#949494',
+      color: '#474747',
     },
     title: {
       fontFamily:'quicksand',
@@ -77,7 +77,7 @@ const theme = createMuiTheme({
       letterSpacing: '.015em',
       lineHeight: '2.0em',
       textTransform: 'none',
-      color: '#949494',
+      color: '#474747',
       paddingBottom: '1em',
     },
     button: {
@@ -101,7 +101,10 @@ const theme = createMuiTheme({
 });
 
 const styles = theme => ({
-
+  root: {
+    margin: 'auto',
+    WebkitOverflowScrolling: 'auto',
+  }
 });
 
 function Frontpage(props) {
@@ -110,14 +113,14 @@ function Frontpage(props) {
   return (
     <MuiThemeProvider theme={theme}>
       <div className={classes.root}>
-        <Grid container>
+        <Grid style={{backgroundColor: '#f9f6f4'}} container>
           <Hidden smDown>
-            <AppBar position="sticky" color="default">
+            <AppBar position="sticky" color="#ffffff"  elevation={0}>
               <HorizontalMenu />
             </AppBar>
           </Hidden>
           <Hidden mdUp>
-          <AppBar position="sticky" color="default">
+          <AppBar position="sticky" color="default"  elevation={0}>
               <BurgerMenu />
             </AppBar>
           </Hidden>

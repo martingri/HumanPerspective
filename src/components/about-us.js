@@ -24,7 +24,7 @@ function getMemberProfileComponent(profile, id) {
 function AboutUs(props) {
   const { classes } = props;
   return (
-    <Grid container id="about-us">
+    <Grid  container id="about-us">
         <Grid item xs={12}>
             <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px'}}>
               ABOUT US
