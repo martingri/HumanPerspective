@@ -13,7 +13,7 @@ import Services from './components/services';
 import ContactUs from './components/contact-us';
 import AppBar from 'material-ui/AppBar';
 
-const topBannerImg = '835561.jpg';
+const topBannerImg = '945859-binoculars.jpg';
 const middleBannerImg = '703700.jpg';
 const bottomBannerImg = '632414.jpg';
 
@@ -24,7 +24,10 @@ const theme = createMuiTheme({
     fontFamily:
       'quicksand',
     fontWeightMedium,
+    fontFamily:
+    'asap',
     display4: {
+      fontFamily: 'asap',
       textTransform: 'uppercase',
       letterSpacing: '.2em',
       marginRight: '1.9em',
@@ -32,6 +35,7 @@ const theme = createMuiTheme({
       fontSize: '60px'
     },
     display3: {
+      fontFamily:'quicksand',
       fontWeight: '400',
       fontStyle: 'normal',
       fontSize: '26px',
@@ -78,6 +82,7 @@ const theme = createMuiTheme({
       paddingBottom: '1em',
     },
     button: {
+    
       fontWeight: '600',
       letterSpacing: '.1em',
       fontSize: '12px',

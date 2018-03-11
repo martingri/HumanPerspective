@@ -4,12 +4,12 @@ import { withStyles } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import Hidden from 'material-ui/Hidden';
-import LogoImg from '../assets/img/MockLogo.gif';
+import LogoImg from '../assets/img/HP-logo.png';
 import Avatar from 'material-ui/Avatar';
 
 const styles = theme => ({
   logo: {
-    height: 30,
+    height: '30px',
   },
 });
 
