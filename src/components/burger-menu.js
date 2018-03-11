@@ -53,7 +53,7 @@ class BurgeMenu extends React.Component {
         <Grid container
           alignItems='center'
           direction='row'
-          justify='space-start'>
+          justify='flex-start'>
           <Grid item xs={1}>
             <Logo />
           </Grid>

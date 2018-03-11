@@ -10,12 +10,12 @@ import { Parallax, Background } from 'react-parallax';
 
 const styles = theme => ({
   banner: {
-    height: '90vh',
+    height: '50vh',
     backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
   },
   bannerText: {
-    color: '#fff',
+    color: '#000',
     textAlign: 'center',
     [theme.breakpoints.down('sm')]: {
       fontSize: '45px'
@@ -36,7 +36,7 @@ function Banner(props) {
       blur={{ min: -15, max: 15 }}
       bgImage={bannerImg}
       strength={200}>
-      <div style={{ height: '90vh' }} >
+      <div style={{ height: '70vh' }} >
         <Grid container className={classes.banner}
           alignItems='center'
           direction='column'

@@ -14,47 +14,44 @@ import ContactUs from './components/contact-us';
 import AppBar from 'material-ui/AppBar';
 
 const topBannerImg = '945859-binoculars.jpg';
-const middleBannerImg = '703700.jpg';
-const bottomBannerImg = '632414.jpg';
+const middleBannerImg = '632414.jpg';
+const bottomBannerImg = '835561.jpg';
 
 const fontWeightMedium = 500;
 const theme = createMuiTheme({
   typography: {
     // Use the system font.
-    fontFamily:
-      'quicksand',
-    fontWeightMedium,
-    fontFamily:
-    'asap',
     display4: {
-      fontFamily: 'asap',
-      textTransform: 'uppercase',
-      letterSpacing: '.2em',
+      fontFamily: 'open sans',
+      letterSpacing: '.1em',
       marginRight: '1.9em',
       marginLeft: '1.9em',
-      fontSize: '60px'
+      fontSize: '2.5em',
+      fontWeight: '300',
     },
     display3: {
-      fontFamily:'quicksand',
-      fontWeight: '400',
+      fontFamily:'asap',
+      fontWeight: '300',
       fontStyle: 'normal',
       fontSize: '26px',
       letterSpacing: '.15em',
       lineHeight: '2.3em',
       textTransform: 'uppercase',
-      color: 'black'
+      color: '#000'
     },
     display2: {
-      fontWeight: '500',
+      fontFamily:'asap',
+      fontWeight: '300',
       fontStyle: 'normal',
       fontSize: '18px',
       letterSpacing: '.15em',
-      lineHeight: '1.8em',
+      lineHeight: '1.3em',
       textTransform: 'uppercase',
       color: '#000'
     },
     subheading: {
-      fontWeight: 'bold',
+      fontFamily:'open sans',
+      fontWeight: '600',
       fontStyle: 'normal',
       fontSize: '14px',
       letterSpacing: '.1em',
@@ -63,6 +60,7 @@ const theme = createMuiTheme({
       color: '#949494',
     },
     title: {
+      fontFamily:'quicksand',
       fontWeight: 'bold',
       fontStyle: 'normal',
       fontSize: '14px',
@@ -71,18 +69,19 @@ const theme = createMuiTheme({
       textTransform: 'uppercase',
     },
     body1: {
+      fontFamily:'open sans',
       fontWeight: fontWeightMedium,
       wordWrap: 'break-word',
       fontStyle: 'normal',
       fontSize: '14px',
       letterSpacing: '.015em',
-      lineHeight: '2.3em',
+      lineHeight: '2.0em',
       textTransform: 'none',
       color: '#949494',
       paddingBottom: '1em',
     },
     button: {
-    
+      fontFamily:'quicksand',
       fontWeight: '600',
       letterSpacing: '.1em',
       fontSize: '12px',
@@ -97,7 +96,6 @@ const theme = createMuiTheme({
       lineHeight: '3em',
       textTransform: 'uppercase',
       color: '#000',
-      WebkitFontSmoothing: 'subpixel-antialiased'
     }
   },
 });
@@ -123,8 +121,8 @@ function Frontpage(props) {
               <BurgerMenu />
             </AppBar>
           </Hidden>
-          <Grid item xs={12}>
-            <Banner bannerImg={topBannerImg} bannerText="TECHNICAL AND PRODUCT SERVICES" />
+          <Grid style={{padding: '0px' }} item xs={12}>
+            <Banner bannerImg={topBannerImg} bannerText="technical & product services with a human touch" />
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
@@ -133,7 +131,7 @@ function Frontpage(props) {
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
-          <Grid item xs={12}>
+          <Grid style={{padding: '0px' }} item xs={12}>
             <Banner bannerImg={middleBannerImg} />
           </Grid>
           <Grid item xs={1} sm={2}>
@@ -143,7 +141,7 @@ function Frontpage(props) {
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
-          <Grid item xs={12}>
+          <Grid style={{padding: '0px' }} item xs={12}>
             <Banner bannerImg={bottomBannerImg} />
           </Grid>
           <Grid item xs={1} sm={2}>

@@ -31,8 +31,7 @@ function Services(props) {
           OUR APPS
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
-          We develop applications for web and for native devices with an overarching goal of making a positive social impact on the world. We are currently working on concepts that inspire an active lifestyle, help you adopt a healthy diet and make it easier for people with reduced hearing to stay social.
-        </Typography>
+        We develop applications for web and native devices with an overarching goal of creating a positive experience for the people using them or contributing to a positive social impact on the world…or, preferably both! We are currently working on concepts that inspire an active lifestyle, help you adopt a healthy diet and make it easier for people with reduced hearing to stay social.        </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
         <Typography variant="display2" gutterBottom align='left'>
