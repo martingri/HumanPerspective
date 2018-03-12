@@ -118,12 +118,12 @@ function Frontpage(props) {
       <div className={classes.root}>
         <Grid style={{backgroundColor: '#f9f6f4'}} container>
           <Hidden smDown>
-            <AppBar position="fixed" color="default"  elevation={0}>
+            <AppBar position="fixed" className={classes.topNavigation} elevation={0}>
               <HorizontalMenu />
             </AppBar>
           </Hidden>
           <Hidden mdUp>
-          <AppBar position="fixed" color="default"  elevation={0}>
+          <AppBar position="fixed" className={classes.topNavigation} elevation={0}>
               <BurgerMenu />
             </AppBar>
           </Hidden>
