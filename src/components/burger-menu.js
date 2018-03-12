@@ -33,12 +33,15 @@ class BurgeMenu extends React.Component {
     this.setState({ open: !this.state.open });
   };
 
+  handleMenuItemClick = (anchor) => {
+    this.handleClose();
+    this.jumpto(anchor);
+  };
+
   handleClose = () => {
     if (!this.state.open) {
       return;
     }
-
-    // setTimeout to ensure a close event comes after a target click event
     this.timeout = setTimeout(() => {
       this.setState({ open: false });
     });
@@ -76,35 +79,18 @@ class BurgeMenu extends React.Component {
                   <Icon>menu</Icon></IconButton>
               </Target>
               <Popper
-                placement="right-start"
+                placement="bottom-start"
                 eventsEnabled={open}
                 className={classNames({ [classes.popperClose]: !open })}
               >
                 <ClickAwayListener onClickAway={this.handleClose}>
-                  <Grow
-                    in={open}
-                    id="menu-list"
-                    style={{ transformOrigin: "0 0 0" }}
-                  >
-                    <Paper>
+                  <Grow in={open} id="menu-list-grow" style={{ transformOrigin: '0 0 0' }}>
+                    <Paper elevation={0}>
                       <MenuList role="menu">
-                        <Grid container
-                          alignItems='flex-start'
-                          direction='column'
-                          justify='flex-start'>
-                          <Button href="#" onClick={this.handleClose}>
-                            Home
-                          </Button>
-                          <Button href="#about-us" onClick={this.handleClose}>
-                            About Us
-                          </Button>
-                          <Button href="#services" onClick={this.handleClose}>
-                            Services
-                          </Button>
-                          <Button href="#contact-us" onClick={this.handleClose}>
-                            Contact Us
-                          </Button>
-                        </Grid>
+                        <MenuItem onClick={() => this.handleMenuItemClick("root")}>Home</MenuItem>
+                        <MenuItem onClick={() => this.handleMenuItemClick("about-us")}>About Us</MenuItem>
+                        <MenuItem onClick={() => this.handleMenuItemClick("services")}>Services</MenuItem>
+                        <MenuItem onClick={() => this.handleMenuItemClick("contact-us")}>Contact Us</MenuItem>
                       </MenuList>
                     </Paper>
                   </Grow>
