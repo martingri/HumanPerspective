@@ -104,7 +104,6 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     margin: 'auto',
-    WebkitOverflowScrolling: 'auto',
   }
 });
 
@@ -116,17 +115,17 @@ function Frontpage(props) {
       <div className={classes.root}>
         <Grid style={{backgroundColor: '#f9f6f4'}} container>
           <Hidden smDown>
-            <AppBar position="sticky" color="default"  elevation={0}>
+            <AppBar position="fixed" color="default"  elevation={0}>
               <HorizontalMenu />
             </AppBar>
           </Hidden>
           <Hidden mdUp>
-          <AppBar position="sticky" color="default"  elevation={0}>
+          <AppBar position="fixed" color="default"  elevation={0}>
               <BurgerMenu />
             </AppBar>
           </Hidden>
           <Grid style={{padding: '0px' }} item xs={12}>
-            <Banner bannerImg={topBannerImg} bannerText="NEW Technical & product services with a human touch."  />
+            <Banner bannerImg={topBannerImg} bannerText="Technical & product services with a human touch."  />
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
