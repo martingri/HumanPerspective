@@ -26,7 +26,7 @@ function AboutUs(props) {
   return (
     <Grid container id="about-us">
       <Grid item xs={12}>
-        <Typography variant="display3" gutterBottom align='center' style={{ marginTop: '40px' }}>
+        <Typography variant="display3" gutterBottom align='center' style={{ marginTop: '64px' }}>
           About us
         </Typography>
         <Typography variant="body1" gutterBottom align="left">

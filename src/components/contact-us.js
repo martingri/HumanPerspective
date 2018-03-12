@@ -20,7 +20,7 @@ function ContactUs(props) {
     <Grid container spacing={24} id="contact-us">
       <Grid item xs={2}/>
       <Grid item xs={8}>
-        <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px'}}>
+        <Typography variant="display3" gutterBottom align='center' style={{marginTop: '64px'}}>
           Get in touch
         </Typography>
         <Typography style={{textAlign: 'center'}} variant="body1" gutterBottom align="left">

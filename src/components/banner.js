@@ -33,10 +33,9 @@ function Banner(props) {
   return (
     <div>
       <Parallax
-      blur={{ min: -15, max: 15 }}
       bgImage={bannerImg}
       strength={200}>
-      <div style={{ height: '70vh' }} >
+      <div style={{ height: '70vh', paddingTop: '64px' }} >
         <Grid container className={classes.banner}
           alignItems='center'
           direction='column'

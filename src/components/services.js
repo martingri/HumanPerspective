@@ -24,7 +24,7 @@ function Services(props) {
   return (
     <Grid container spacing={24}>
       <Grid item xs={12}  id="services">
-        <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px' }}>
+        <Typography variant="display3" gutterBottom align='center' style={{marginTop: '64px' }}>
           What we can do for you
         </Typography>
         <Typography variant="display2" gutterBottom align='left'>
