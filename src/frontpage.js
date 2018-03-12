@@ -124,7 +124,7 @@ function Frontpage(props) {
             </AppBar>
           </Hidden>
           <Grid style={{padding: '0px' }} item xs={12}>
-            <Banner bannerImg={topBannerImg} bannerText="Technical & product services with a human touch." />
+            <Banner bannerImg={topBannerImg} bannerText="NEW Technical & product services with a human touch."  />
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
