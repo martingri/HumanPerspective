@@ -14,8 +14,8 @@ import ContactUs from './components/contact-us';
 import AppBar from 'material-ui/AppBar';
 
 const topBannerImg = '945859-5.jpg';
-const middleBannerImg = '632414.jpg';
-const bottomBannerImg = '835561.jpg';
+const middleBannerImg = '945859-7.jpg';
+const bottomBannerImg = '945859-6.jpg';
 
 const fontWeightMedium = 500;
 const theme = createMuiTheme({
@@ -30,13 +30,13 @@ const theme = createMuiTheme({
       fontWeight: '100',
     },
     display3: {
-      fontFamily:'montserrat',
-      fontWeight: '300',
+      fontFamily:'EB garamond',
+      fontWeight: '600',
       fontStyle: 'normal',
       fontSize: '2em',
       letterSpacing: '0em',
       lineHeight: '1.2em',
-      color: '#001726'
+      color: '#00988c'
     },
     display2: {
       fontFamily:'montserrat',
@@ -69,11 +69,11 @@ const theme = createMuiTheme({
       color: '#001726',
     },
     body1: {
-      fontFamily:'EB garamond',
-      fontWeight: '300',
+      fontFamily:'montserrat',
+      fontWeight: '400',
       wordWrap: 'break-word',
       fontStyle: 'normal',
-      fontSize: '1.05em',
+      fontSize: '.8em',
       letterSpacing: '.015em',
       lineHeight: '1.7em',
       textTransform: 'none',
