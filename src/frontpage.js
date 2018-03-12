@@ -22,12 +22,12 @@ const theme = createMuiTheme({
   typography: {
     // Use the system font.
     display4: {
-      fontFamily: 'EB garamond',
+      fontFamily: 'montserrat',
       letterSpacing: '0em',
       marginRight: '1.9em',
       marginLeft: '1.9em',
-      fontSize: '2.5em',
-      fontWeight: '700',
+      fontSize: '4.5em',
+      fontWeight: '100',
     },
     display3: {
       fontFamily:'montserrat',
@@ -36,17 +36,17 @@ const theme = createMuiTheme({
       fontSize: '2em',
       letterSpacing: '0em',
       lineHeight: '1.2em',
-      color: '#000'
+      color: '#001726'
     },
     display2: {
       fontFamily:'montserrat',
       fontWeight: '400',
       fontStyle: 'normal',
       fontSize: '18px',
-      letterSpacing: '.1em',
+      letterSpacing: '.05em',
       lineHeight: '1.3em',
       textTransform: 'uppercase',
-      color: '#000'
+      color: '#001726'
     },
     subheading: {
       fontFamily:'montserrat',
@@ -56,27 +56,28 @@ const theme = createMuiTheme({
       letterSpacing: '0.05em',
       lineHeight: '1.em',
       textTransform: 'uppercase',
-      color: '#474747',
+      color: '#001726',
     },
     title: {
-      fontFamily:'quicksand',
-      fontWeight: 'bold',
+      fontFamily:'montserrat',
+      fontWeight: '600',
       fontStyle: 'normal',
       fontSize: '14px',
       letterSpacing: '.1em',
       lineHeight: '1.em',
       textTransform: 'uppercase',
+      color: '#001726',
     },
     body1: {
       fontFamily:'EB garamond',
-      fontWeight: 300,
+      fontWeight: '300',
       wordWrap: 'break-word',
       fontStyle: 'normal',
       fontSize: '1.05em',
       letterSpacing: '.015em',
       lineHeight: '1.7em',
       textTransform: 'none',
-      color: '#474747',
+      color: '#001726',
       paddingBottom: '1em',
     },
     button: {
@@ -85,6 +86,7 @@ const theme = createMuiTheme({
       letterSpacing: '.1em',
       fontSize: '12px',
       textTransform: 'lowercase',
+      color:'#001726'
     },
     caption: {
       fontFamily: 'oswald',
@@ -114,7 +116,7 @@ function Frontpage(props) {
       <div className={classes.root}>
         <Grid style={{backgroundColor: '#f9f6f4'}} container>
           <Hidden smDown>
-            <AppBar position="sticky" color="#ffffff"  elevation={0}>
+            <AppBar position="sticky" color="default"  elevation={0}>
               <HorizontalMenu />
             </AppBar>
           </Hidden>

@@ -21,21 +21,21 @@ function ContactUs(props) {
       <Grid item xs={2}/>
       <Grid item xs={8}>
         <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px'}}>
-          GET IN TOUCH
+          Get in touch
         </Typography>
-        <Typography variant="body1" gutterBottom align="left">
+        <Typography style={{textAlign: 'center'}} variant="body1" gutterBottom align="left">
           We love working with like minded people so if you think we're a good match for you and your venture hit us up by phone or email.
         </Typography>
-        <Typography variant="title" gutterBottom align='left'>
+        <Typography style={{textAlign: 'center'}} variant="title" gutterBottom align='left'>
           EMAIL
         </Typography>
-        <Typography variant="body1" gutterBottom align="left">
+        <Typography style={{textAlign: 'center'}} variant="body1" gutterBottom align="left">
           martin.grimeland(att)gmail.com
         </Typography>
-        <Typography variant="title" gutterBottom align='left'>
+        <Typography style={{textAlign: 'center'}} variant="title" gutterBottom align='left'>
           TELEPHONE
         </Typography>
-        <Typography variant="body1" gutterBottom align="left">
+        <Typography style={{textAlign: 'center'}} variant="body1" gutterBottom align="left">
           +61 (0) 47 52 55 779
         </Typography>
         <div style={{height:'10vh'}}/>
