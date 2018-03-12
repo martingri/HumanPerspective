@@ -12,7 +12,7 @@ const styles = theme => ({
     flexGrow: 1,
   },
   profileImage: {
-    float:'left',
+    float: 'left',
     paddingRight: '30px',
     paddingBottom: '10px',
     /**paddingTop: '20px',*/
@@ -36,23 +36,51 @@ function generateBullet(point, id) {
 }
 
 function generatePitchParagraph(text, id) {
-  return (<Typography key={id} variant="body1" gutterBottom align="left">
-           {text}
-          </Typography>);
+  return (
+    <Typography key={id} variant="body1" gutterBottom align="left">
+      {text}
+    </Typography>);
+}
+
+function listQualifications(profile) {
+  const education = profile.education;
+  const expertise = profile.expertise;
+  const experience = profile.experience;
+  return (
+    <Grid item xs={12}>
+      <Grid container>
+        <Grid item xs={12} sm={6}>
+          <Typography variant="display2" gutterBottom align="left">
+            EDUCATION
+          </Typography>
+          {education.map((object, i) => generateEducation(object, i))}
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Typography variant="display2" gutterBottom align="left">
+            EXPERTISE
+    </Typography>
+          {expertise.map((text, i) => generateBullet(text, i))}
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Typography variant="display2" gutterBottom align="left">
+            EXPERIENCE & STRENGTHS
+    </Typography>
+          {experience.map((text, i) => generateBullet(text, i))}
+        </Grid>
+      </Grid>
+    </Grid>
+  );
 }
 
 function MemberProfile(props) {
   const { classes } = props;
   const profile = props.profile;
-  const education = profile.education;
-  const expertise = profile.expertise;
-  const experience = profile.experience;
   const pitch = profile.pitch;
   const imagePath = require(`../assets/img/${profile.profileImage}`);
   return (
-    <Grid  style={{marginBottom: '20px'}} container>
+    <Grid style={{ marginBottom: '20px' }} container>
       <Grid item xs={12}>
-        <img src={imagePath} className={classes.profileImage}/>
+        <img src={imagePath} className={classes.profileImage} />
         <Typography variant="display3" gutterBottom align='left'>
           {profile.name}
         </Typography>
@@ -60,28 +88,6 @@ function MemberProfile(props) {
           {profile.title}
         </Typography>
         {pitch.map((text, i) => generatePitchParagraph(text, i))}
-      </Grid>
-      <Grid item xs={12}>
-        <Grid container>
-          <Grid item xs={12} sm={6}>
-            <Typography variant="display2" gutterBottom align="left">
-              EDUCATION
-              </Typography>
-            {education.map((object, i) => generateEducation(object, i))}
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <Typography variant="display2" gutterBottom align="left">
-              EXPERTISE
-        </Typography>
-            {expertise.map((text, i) => generateBullet(text, i))}
-          </Grid>
-          <Grid item xs={12} sm={6}>
-            <Typography variant="display2" gutterBottom align="left">
-              EXPERIENCE & STRENGTHS
-        </Typography>
-            {experience.map((text, i) => generateBullet(text, i))}
-          </Grid>
-        </Grid>
       </Grid>
     </Grid>
   );
