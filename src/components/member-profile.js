@@ -84,7 +84,7 @@ function MemberProfile(props) {
         <Typography variant="display3" gutterBottom align='left'>
           {profile.name}
         </Typography>
-        <Typography variant="subheading" gutterBottom align='left'>
+        <Typography style={{marginBottom: '.7em'}} variant="subheading" gutterBottom align='left'>
           {profile.title}
         </Typography>
         {pitch.map((text, i) => generatePitchParagraph(text, i))}

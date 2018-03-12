@@ -27,7 +27,7 @@ function AboutUs(props) {
     <Grid  container id="about-us">
         <Grid item xs={12}>
             <Typography variant="display3" gutterBottom align='center' style={{marginTop: '40px'}}>
-              ABOUT US
+              About us
             </Typography>
             <Typography variant="body1" gutterBottom align="left">
             Human Perspective works on web and native applications that are made for humans and have a positive social impact. We develop our own concepts and work with like minded businesses on their products. Our expertise is product design and concept development with extensive experience shaping, designing and building ground-breaking new products. Human Perspective is based in Newcastle, Australia with strong connections to Oslo, Norway and London, UK.            </Typography>

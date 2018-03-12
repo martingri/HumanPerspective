@@ -15,7 +15,7 @@ const styles = theme => ({
     backgroundPosition: 'center',
   },
   bannerText: {
-    color: '#000',
+    color: '#fff',
     textAlign: 'center',
     [theme.breakpoints.down('sm')]: {
       fontSize: '45px'

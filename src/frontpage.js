@@ -13,7 +13,7 @@ import Services from './components/services';
 import ContactUs from './components/contact-us';
 import AppBar from 'material-ui/AppBar';
 
-const topBannerImg = '945859-binoculars.jpg';
+const topBannerImg = '945859-5.jpg';
 const middleBannerImg = '632414.jpg';
 const bottomBannerImg = '835561.jpg';
 
@@ -22,39 +22,38 @@ const theme = createMuiTheme({
   typography: {
     // Use the system font.
     display4: {
-      fontFamily: 'open sans',
-      letterSpacing: '.1em',
+      fontFamily: 'EB garamond',
+      letterSpacing: '0em',
       marginRight: '1.9em',
       marginLeft: '1.9em',
       fontSize: '2.5em',
-      fontWeight: '300',
+      fontWeight: '700',
     },
     display3: {
-      fontFamily:'asap',
+      fontFamily:'montserrat',
       fontWeight: '300',
       fontStyle: 'normal',
-      fontSize: '26px',
-      letterSpacing: '.15em',
+      fontSize: '2em',
+      letterSpacing: '0em',
       lineHeight: '1.2em',
-      textTransform: 'uppercase',
       color: '#000'
     },
     display2: {
-      fontFamily:'asap',
-      fontWeight: '300',
+      fontFamily:'montserrat',
+      fontWeight: '400',
       fontStyle: 'normal',
       fontSize: '18px',
-      letterSpacing: '.15em',
+      letterSpacing: '.1em',
       lineHeight: '1.3em',
       textTransform: 'uppercase',
       color: '#000'
     },
     subheading: {
-      fontFamily:'open sans',
+      fontFamily:'montserrat',
       fontWeight: '600',
       fontStyle: 'normal',
       fontSize: '14px',
-      letterSpacing: '.1em',
+      letterSpacing: '0.05em',
       lineHeight: '1.em',
       textTransform: 'uppercase',
       color: '#474747',
@@ -69,19 +68,19 @@ const theme = createMuiTheme({
       textTransform: 'uppercase',
     },
     body1: {
-      fontFamily:'open sans',
-      fontWeight: fontWeightMedium,
+      fontFamily:'EB garamond',
+      fontWeight: 300,
       wordWrap: 'break-word',
       fontStyle: 'normal',
-      fontSize: '14px',
+      fontSize: '1.05em',
       letterSpacing: '.015em',
-      lineHeight: '2.0em',
+      lineHeight: '1.7em',
       textTransform: 'none',
       color: '#474747',
       paddingBottom: '1em',
     },
     button: {
-      fontFamily:'quicksand',
+      fontFamily:'montserrat',
       fontWeight: '600',
       letterSpacing: '.1em',
       fontSize: '12px',
@@ -125,7 +124,7 @@ function Frontpage(props) {
             </AppBar>
           </Hidden>
           <Grid style={{padding: '0px' }} item xs={12}>
-            <Banner bannerImg={topBannerImg} bannerText="technical & product services with a human touch" />
+            <Banner bannerImg={topBannerImg} bannerText="Technical & product services with a human touch." />
           </Grid>
           <Grid item xs={1} sm={2}>
           </Grid>
