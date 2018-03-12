@@ -104,6 +104,9 @@ const theme = createMuiTheme({
 const styles = theme => ({
   root: {
     margin: 'auto',
+  },
+  topNavigation: {
+    backgroundColor: 'white'
   }
 });
 
