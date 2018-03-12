@@ -47,6 +47,11 @@ class BurgeMenu extends React.Component {
     });
   };
 
+  jumpto = (anchor) => {
+    var top = document.getElementById(anchor).offsetTop;
+    window.scrollTo(0, top);
+  };
+
   render() {
     const { classes } = this.props;
     const { open } = this.state;
