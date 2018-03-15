@@ -40,12 +40,12 @@ function Services(props) {
           Our approach is to take small testable steps to help make informed decisions throughout the process. During our work we consider all the different aspects of software development and take on different perspectives to ensure the best possible solution for end users and your business objectives.
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
-          We have a lot of experience in shaping products and developing software solutions from an idea to a production ready product. We offer consulting every step of the way and can advice on designs, technology choices and feasibility, or we can help you get started with a product development plan.
+          We have a lot of experience in shaping products and developing software solutions from an idea to a production ready product. We offer consulting every step of the way and can advise on designs, technology choices and feasibility, or we can help you get started with a product development plan.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
         <Typography variant="display2" gutterBottom align='left'>
-          WE OFFER BUSINESSES STRATEGIC AND OPERATIONAL ADVISE
+          WE OFFER BUSINESSES STRATEGIC AND OPERATIONAL ADVICE
         </Typography>
         <Typography variant="body1" gutterBottom align="left">
           We offer a combination of business understanding and a deep technical understanding to provide a technical perspective in business strategy decisions. We also offer advice on all aspects of managing an engineering team. 
@@ -53,9 +53,9 @@ function Services(props) {
         <Typography variant="subheading" gutterBottom align="left">
           For business strategy we can provide advice on:
         </Typography>
-        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Feasibility of a technical solution – including my evaluation on complexity and quick win pragmatic solutions and alternatives.</Typography>
-        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Forming a technical roadmap</Typography>
-        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Strategies in building a development team – hiring, composition, processes etc.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Feasibility of a technical solution.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Forming a technical roadmap.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Strategies in building a development team.</Typography>
         <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate third party companies that is considered for product development.</Typography>
         <Typography variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Evaluate off the shelf technology or software as a service platforms.</Typography>
         <Typography variant="subheading" gutterBottom align="left">
@@ -63,8 +63,8 @@ function Services(props) {
         </Typography>
         <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Professionalising or streamlining development processes and workflows.</Typography>
         <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Growing the engineering team.</Typography>
-        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Recruitment – Evaluating what roles are needed and define roles. Work out relevant interview questions. We can even join interviews and evaluate your candidates.</Typography>
-        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Designing their Agile approach.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Recruitment – Setup a hiring plan, participate in interviews and evaluate the candidates.</Typography>
+        <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Designing the team's Agile approach.</Typography>
         <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />System architecture and solution design.</Typography>
         <Typography style={{ paddingBottom: '0px' }} variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Importance of code quality and best practices.</Typography>
         <Typography style={{marginBottom: '40px' }}variant="body1" gutterBottom align="left"><Bullet style={{ height: '10px' }} />Clean code.</Typography>
