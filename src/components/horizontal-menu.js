@@ -13,7 +13,6 @@ const styles = theme => ({
 });
 
 function HorizontalMenu(props) {
-  const { classes } = props;
   return (
     <Toolbar>
       <Grid container

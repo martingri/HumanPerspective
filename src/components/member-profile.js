@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
-import Hidden from 'material-ui/Hidden';
 import Typography from 'material-ui/Typography';
 import Bullet from 'material-ui-icons/Lens';
 
@@ -15,8 +13,6 @@ const styles = theme => ({
     float: 'left',
     paddingRight: '30px',
     paddingBottom: '10px',
-    /**paddingTop: '20px',*/
-    width: '30%',
     [theme.breakpoints.down('md')]: {
       width: '40%',
     },
@@ -80,7 +76,7 @@ function MemberProfile(props) {
   return (
     <Grid style={{ marginBottom: '20px' }} container>
       <Grid item xs={12}>
-        <img src={imagePath} className={classes.profileImage} />
+        <img src={imagePath} className={classes.profileImage} alt={profile.name}/>
         <Typography variant="display3" gutterBottom align='left'>
           {profile.name}
         </Typography>

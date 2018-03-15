@@ -1,12 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
-import Hidden from 'material-ui/Hidden';
 import Typography from 'material-ui/Typography';
 import MemberProfile from './member-profile';
-import martinProfileImage from '../assets/img/MartinGrimelandCV-scaled.png';
 import profiles from '../assets/data/profiles.json';
 
 const styles = theme => ({
@@ -22,7 +19,6 @@ function getMemberProfileComponent(profile, id) {
 }
 
 function AboutUs(props) {
-  const { classes } = props;
   return (
     <Grid container id="about-us">
       <Grid item xs={12}>

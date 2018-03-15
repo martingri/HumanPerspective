@@ -1,11 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
-import Hidden from 'material-ui/Hidden';
 import Typography from 'material-ui/Typography';
-import Bullet from 'material-ui-icons/Lens';
 
 const styles = theme => ({
   root: {
@@ -14,8 +11,6 @@ const styles = theme => ({
 });
 
 function ContactUs(props) {
-  const { classes } = props;
-
   return (
     <Grid container spacing={24} id="contact-us">
       <Grid item xs={2}/>

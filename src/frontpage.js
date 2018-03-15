@@ -1,12 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { MuiThemeProvider, createMuiTheme, withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import Hidden from 'material-ui/Hidden';
 import BurgerMenu from './components/burger-menu';
 import HorizontalMenu from './components/horizontal-menu';
-import Blurb from './components/blurb';
 import Banner from './components/banner';
 import AboutUs from './components/about-us';
 import Services from './components/services';
@@ -17,7 +15,6 @@ const topBannerImg = '945859-5.jpg';
 const middleBannerImg = '945859-7.jpg';
 const bottomBannerImg = '945859-6.jpg';
 
-const fontWeightMedium = 500;
 const theme = createMuiTheme({
   typography: {
     // Use the system font.

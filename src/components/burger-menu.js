@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import Button from "material-ui/Button";
 import { MenuItem, MenuList } from "material-ui/Menu";
 import Grow from "material-ui/transitions/Grow";
 import Paper from "material-ui/Paper";

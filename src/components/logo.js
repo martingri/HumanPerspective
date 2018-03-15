@@ -1,11 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
-import Grid from 'material-ui/Grid';
-import Hidden from 'material-ui/Hidden';
 import LogoImg from '../assets/img/HP-logo-green-new.svg';
-import Avatar from 'material-ui/Avatar';
 
 const styles = theme => ({
   logo: {
@@ -18,7 +14,7 @@ function Logo(props) {
   const { classes } = props;
 
   return (
-    <img src={LogoImg} className={classes.logo}/>
+    <img src={LogoImg} alt="Human Perspective" className={classes.logo}/>
   );
 }
 
