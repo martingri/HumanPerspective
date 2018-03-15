@@ -5,6 +5,8 @@ import Grid from 'material-ui/Grid';
 import Typography from 'material-ui/Typography';
 import Bullet from 'material-ui-icons/Lens';
 
+const includeQualifications = false;
+
 const styles = theme => ({
   root: {
     flexGrow: 1,
@@ -85,6 +87,9 @@ function MemberProfile(props) {
         </Typography>
         {pitch.map((text, i) => generatePitchParagraph(text, i))}
       </Grid>
+        if({includeQualifications}) {
+          listQualifications(profile)
+        }
     </Grid>
   );
 }
