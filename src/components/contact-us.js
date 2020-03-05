@@ -25,7 +25,7 @@ function ContactUs(props) {
           EMAIL
         </Typography>
         <Typography style={{textAlign: 'center'}} variant="body1" gutterBottom align="left">
-          martin.grimeland(att)gmail.com
+          martin(att)humanperspective.tech
         </Typography>
         <Typography style={{textAlign: 'center'}} variant="title" gutterBottom align='left'>
           TELEPHONE
